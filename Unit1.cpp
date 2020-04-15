@@ -58,14 +58,14 @@ class CustData{
 
 	public:
         CustData() = default;
-		CustData( System::String newid, System::String newnm, System::String newaddr ) ;
+	//CustData( System::String newid, System::String newnm, System::String newaddr ) ;
 
-		__property
-		System::String cid   = {read = readid,   write = writeid  };
-		__property
-		System::String cname = {read = readname, write = writename};
-		__property
-		System::String caddr = {read = readaddr, write = writeaddr};
+	__property
+	System::String cid   = {read = readid,   write = writeid  };
+	__property
+	System::String cname = {read = readname, write = writename};
+	__property
+	System::String caddr = {read = readaddr, write = writeaddr};
 
 };
 
@@ -74,7 +74,6 @@ CustData Customers[11];
 int      NoCusts = 0;
 
 void DisplayCustomer(CustData& c) {
-
 	   Form1->Memo1->Clear();
 
 	   Form1->Memo1->Lines->Add( "" );
@@ -90,7 +89,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 	   // New customer
 	   if (NoCusts < 10) {
 			++NoCusts;
-			Customers[NoCusts] =  CustData( ); //IntToStr( NoCusts ), "", "" );
+			Customers[NoCusts] =  CustData( ); 
 
 			Form1->Label1->Caption = IntToStr( NoCusts );
 			Customers[NoCusts].cid = IntToStr( NoCusts );
@@ -102,7 +101,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-	//
+	// change name
 		Form2->ShowModal();
 
 		Customers[NoCusts].cname = Form2->Edit1->Text;
@@ -113,8 +112,8 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
-	//
-		Form3->Show();
+	// change address
+		Form3->ShowModal();
 
 		Customers[NoCusts].caddr = Form3->Edit1->Text;
 		DisplayCustomer( Customers[NoCusts] );
