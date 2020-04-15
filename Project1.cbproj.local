@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/15 02:38:47.000.392,=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/04/15 02:38:47.000.622,=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/04/15 02:39:19.000.740,C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Unit1.dfm</Transaction>
+    <Transaction>2020/04/15 02:39:19.000.740,C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Unit1.h</Transaction>
+    <Transaction>2020/04/15 02:39:19.000.740,C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Unit1.cpp</Transaction>
+    <Transaction>2020/04/15 02:39:22.000.066,C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Project1PCH1.h</Transaction>
+    <Transaction>2020/04/15 02:39:23.000.331,C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Project1.cbproj</Transaction>
+    <Transaction>2020/04/15 12:28:48.000.694,=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Unit2.cpp</Transaction>
+    <Transaction>2020/04/15 12:50:32.000.752,=C:\Users\Perseus\Documents\Embarcadero\Studio\Projects\C++\_test\_basics\multi-form\Unit3.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
