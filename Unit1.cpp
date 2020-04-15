@@ -90,7 +90,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 	   // New customer
 	   if (NoCusts < 10) {
 			++NoCusts;
-			Customers[NoCusts] =  CustData( ); //IntToStr( NoCusts ), "", "" );
+			Customers[NoCusts] =  CustData( ); 
 
 			Form1->Label1->Caption = IntToStr( NoCusts );
 			Customers[NoCusts].cid = IntToStr( NoCusts );
